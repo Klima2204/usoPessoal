@@ -1,5 +1,4 @@
 "use client";
-import Catalog from "@/components/Catalog";
 import Image from "next/image";
 
 export default function Home() {
@@ -8,11 +7,11 @@ export default function Home() {
       {/* Header / Navbar */}
       <header className="flex justify-between items-center p-6 bg-white shadow-md sticky top-0 z-10">
         <div className="flex items-center gap-3">
-          <Image src="/logo.png" alt="Logo DOGVIP" width={50} height={50} />
+          <Image src="/logo.png" alt="Logo DOGVIP" width={100} height={100} />
           <h1 className="text-xl font-bold text-pink-700">DOGVIP Estética Animal</h1>
         </div>
         <nav className="flex gap-6">
-          <a href="#products" className="text-pink-600 hover:underline">Nossos Produtos</a>
+          <a href="/produtos" className="text-pink-600 hover:underline">Nossos Produtos</a>
           <a href="#contato" className="text-pink-600 hover:underline">Contato</a>
         </nav>
       </header>
@@ -23,12 +22,6 @@ export default function Home() {
         <p className="text-gray-700 text-lg max-w-2xl mx-auto">
           Estética e cuidados especiais para seu pet! Oferecemos banho, tosa, produtos selecionados e atendimento com carinho para garantir o bem-estar do seu melhor amigo.
         </p>
-      </section>
-
-      {/* Catálogo */}
-      <section id="products" className="px-6 py-10">
-        <h3 className="text-2xl font-semibold text-pink-600 mb-6 text-center">Catálogo de Produtos</h3>
-        <Catalog/>
       </section>
 
       {/* Footer */}

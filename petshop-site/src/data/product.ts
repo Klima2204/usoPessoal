@@ -20,7 +20,7 @@ export const products: Product[] = [
     id: 2,
     name: "Banho Hipoalergênico",
     description: "Indicado para pets com pele sensível. Fórmula suave e eficaz.",
-    image: "/images/banho-hipo.jpg",
+    image: "/images/banhoHipolegenico.jpg",
     whatsappMessage: "Oi! Quero mais informações sobre o Banho Hipoalergênico 🛁",
     category: "banhos",
   },
